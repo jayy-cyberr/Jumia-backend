@@ -15,7 +15,7 @@ app.listen(port, () => {
 // Create Endpoint
 app.get("/jumia", (req, res)=> {
 res.status(200).json({
-    message: "Welcome to Jumia"
+    message: "Welcome to Jumia "
 })
 })
 
